@@ -1,7 +1,7 @@
 from peewee import *
 
 
-db = SqliteDatabase("db/database.db")
+db = SqliteDatabase("database.db")
 
 
 class Game(Model):
